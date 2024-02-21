@@ -1,6 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 
+@font-face {
+    font-family: 'baloopaaji-regular';
+    src: url(/assets/img/fonts/BalooPaaji-Regular.ttf);
+    font-display: swap;
+}
+
 *{
     font-family: Inter;
 }
@@ -89,12 +95,11 @@ section,
     top: 0;
 }
 
-.introduction .introduction-title{
+.introduction .introduction-title, .important h3, .important span{
     font-weight: bold;
 }
 
-.introduction .introduction-text{
-    color: black;
+.introduction .introduction-text, .important p{
     font-weight: 500;
 }
 
@@ -104,9 +109,18 @@ section,
     object-fit: cover;
 }
 
+.important-phrase{
+    font-family: baloopaaji-regular;
+    color: #870000;
+}
+
 @media (max-width: 575px){
     .introduction-title{
         font-size: 20px;
+    }
+
+    .important h3{
+        font-size: 18px;
     }
 }
 
@@ -129,5 +143,13 @@ section,
 
     .introduction-title{
         font-size: 30px;
+    }
+
+    .important h3{
+        font-size: 21px;
+    }
+
+    .important-phrase{
+        font-size: 27px;
     }
 }
