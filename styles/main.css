@@ -99,7 +99,7 @@ section,
 }
 
 .alamagna{
-    max-width: 100%;
+    width: 100% !important;
     max-height: 500px;
     object-fit: cover;
 }
