@@ -1,11 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
-@font-face {
-    font-family: 'baloopaaji-regular';
-    src: url(/assets/img/BalooPaaji-Regular.ttf);
-    font-display: swap;
-}
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Baloo+Tamma+2:wght@400..800&family=Baloo+Tammudu+2:wght@400..800&family=Mitr:wght@200;300;400;500;600;700&display=swap');
 
 *{
     font-family: Inter;
@@ -110,7 +105,8 @@ section,
 }
 
 .important-phrase{
-    font-family: "baloopaaji-regular" !important;
+    font-family: "Mitr" !important;
+    font-weight: bold;
     color: #870000;
 }
 
