@@ -114,6 +114,23 @@ section,
     color: #870000;
 }
 
+.copy{
+    background-color: #212327;
+    color: #C6C7C8;
+}
+
+.copy .media a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: #C6C7C8;
+    border: 2px solid #C6C7C8;
+    border-radius: 2px;
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+}
+
 @media (max-width: 575px){
     .introduction-title{
         font-size: 20px;
@@ -121,6 +138,17 @@ section,
 
     .important h3{
         font-size: 18px;
+    }
+
+    .copy p{
+        font-size: 9.5px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 991px){
+    .copy p{
+        font-size: 12px;
     }
 }
 
@@ -151,5 +179,9 @@ section,
 
     .important-phrase{
         font-size: 27px;
+    }
+
+    .copy p{
+        font-size: 14px;
     }
 }
