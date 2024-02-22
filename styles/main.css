@@ -110,7 +110,7 @@ section,
 }
 
 .important-phrase{
-    font-family: baloopaaji-regular;
+    font-family: "baloopaaji-regular" !important;
     color: #870000;
 }
 
