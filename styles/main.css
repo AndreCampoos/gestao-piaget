@@ -152,6 +152,11 @@ section,
     animation: marquee 10s linear infinite;
 }
 
+.introduction-text span{
+    font-weight: bold;
+    color: #870000;
+}
+
 @keyframes marquee {
     from { transform: translateX(100%); }
     to { transform: translateX(-100%); }
